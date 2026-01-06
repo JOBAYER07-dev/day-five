@@ -63,7 +63,7 @@ header {
   background-color: #fff8f3;
   background: url('../images/developer.png'), url(../images/header_bg.png),
     #fff8f3;
-  background-position: top left, bottom right;
+  background-position: 23px -30px, bottom right;
   background-repeat: no-repeat;
   padding-top: 50px;
 }
@@ -246,4 +246,48 @@ nav .menu a {
   font-size: 16px;
   color: #757575;
   line-height: 28px;
+}
+footer{
+padding-top: 130px;
+background-color: #fff8f3;
+
+
+}
+
+footer .footer-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.footer-box{
+  display: flex;
+  gap: 116px;
+}
+.footer-text{
+  max-width: 562px;
+}
+
+.footer-box h2{
+  color: #181818;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.footer-text p{
+  color: #474747;
+  line-height: 28px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.icon a{
+  margin-right: 24px;
+  max-width: 24px;
+}
+
+form input[type="text"], form textarea{
+  width: 461px;
+  padding: 18px 31px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
+  color: #757575;
 }
